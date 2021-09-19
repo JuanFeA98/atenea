@@ -44,7 +44,6 @@
     align-items: center;
     transition: 0.5s;
     transition-delay: 0s;
-    background: blueviolet;
     clip-path: circle(0px at center);
 }
 
@@ -70,4 +69,26 @@
     outline: none;
     cursor: pointer;
     margin-top: 130px;
+}
+
+.slider .imgBox .content{
+    width: 97%;
+    height: 170px;
+    z-index: 1000;
+    display: flex;
+    align-items: flex-end;
+}
+
+.slider .imgBox .content .content-text{
+    /* height: 40px; */
+    height: auto;
+    background: black;
+    padding: 7px 170px 7px 20px ;
+    color: white;
+    border-radius: 0 10px 0px 0;
+}
+
+.slider .imgBox .content .content-text a{
+    color: white;
+    font-weight: bold;
 }

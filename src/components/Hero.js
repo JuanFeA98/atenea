@@ -15,11 +15,6 @@ export default function Hero() {
 
     return (
         <React.Fragment>
-            {/* <section className='Hero'>
-                <div className="Hero-Carousel">
-                    <div className="Hero-Carousel-1"></div>
-                </div>
-            </section> */}
             <div className="slider">
                 <input 
                     type="radio" 
@@ -29,6 +24,11 @@ export default function Hero() {
                 />
                 <div className="imgBox">
                     <img src="https://cdn.pixabay.com/photo/2020/04/25/12/14/tech-5090539_1280.jpg" alt="" />
+                    <div className="content">
+                        <div className="content-text">
+                            <a href="#">Hello</a>
+                        </div>
+                    </div>
                 </div>
                 <input 
                     type="radio" 
@@ -38,6 +38,11 @@ export default function Hero() {
                 />
                 <div className="imgBox">
                     <img src="https://cdn.pixabay.com/photo/2021/08/07/08/49/building-6528075_1280.jpg" alt="" />
+                    <div className="content">
+                        <div className="content-text">
+                            <a href="#">Hello</a>
+                        </div>
+                    </div>
                 </div>
                 <input 
                     type="radio" 
@@ -47,6 +52,11 @@ export default function Hero() {
                 />
                 <div className="imgBox">
                     <img src="https://cdn.pixabay.com/photo/2019/03/12/18/53/city-4051537_1280.jpg" alt="" />
+                    <div className="content">
+                        <div className="content-text">
+                            <a href="#">Hello</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </React.Fragment>
