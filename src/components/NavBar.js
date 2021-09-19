@@ -10,6 +10,7 @@ export default function NavBar() {
                 <li>Section 2</li>
                 <li>Section 3</li>
                 <li>Section 4</li>
+                <li>Section 4</li>
             </ul>
         </nav>
     )
