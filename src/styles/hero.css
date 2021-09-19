@@ -8,5 +8,66 @@
     width: 95%;
     height: 200px;
     background: black;
+    border-radius: 10px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Hero-Carousel-1{
+    width: 95%;
+    height: 90%;
+    background: gray;
+    background-image: url('https://cdn.pixabay.com/photo/2020/04/25/12/14/tech-5090539_1280.jpg');
+    background-position: center;
+    border-radius: 5px;
+}
+
+.slider{
+    position: relative;
+    width: 95%;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.slider .imgBox{
+    position: absolute;
+    width: 100%;
+    /* top: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    transition-delay: 0s;
+    background: blueviolet;
+    clip-path: circle(0px at center);
+}
+
+.slider input[type="radio"]:checked + .imgBox{
+    z-index: 4;
+    clip-path: circle(1000px at center);
+    transition-delay: 0.75s;
+}
+
+.slider .imgBox img{
+    position: absolute;
+    /* top: 0; */
+    width: 97%;
+    height: 170px;
+    object-fit: cover;
     border-radius: 10px;
+}
+
+.slider input[type="radio"]{
+    z-index: 2000;
+    position: relative;
+    margin: 5px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 130px;
 }

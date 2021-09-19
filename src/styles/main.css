@@ -1,8 +1,5 @@
 main{
     width: 100%;
     height: auto;
-    position: fixed;
-    top: 113px;
-    /* background: pink; */
-    /* height: 400p x; */
+    margin-top: 130px;
 }

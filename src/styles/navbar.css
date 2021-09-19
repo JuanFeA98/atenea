@@ -5,6 +5,7 @@
     top: 53px;
     background: #050505;
     color: white;
+    z-index: 1;
 }
 
 .NavBar ul{
@@ -28,6 +29,12 @@
 
 .NavBar ul li:hover{
     cursor: pointer;
-    background: #1a71fe;
+    background: linear-gradient(to right, #0ee9ef, #edbf65);
     color: #050505;
 }   
+
+/* .NavBar ul li:hover{
+    cursor: pointer;
+    background: #1a71fe;
+    color: #050505;
+}    */
