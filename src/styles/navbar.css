@@ -5,7 +5,7 @@
     top: 53px;
     background: #050505;
     color: white;
-    z-index: 1;
+    z-index: 100;
 }
 
 .NavBar ul{

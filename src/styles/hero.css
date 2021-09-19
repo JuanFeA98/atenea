@@ -63,7 +63,7 @@
 }
 
 .slider input[type="radio"]{
-    z-index: 2000;
+    z-index: 50;
     position: relative;
     margin: 5px;
     outline: none;

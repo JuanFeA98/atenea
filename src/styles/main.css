@@ -3,3 +3,11 @@ main{
     height: auto;
     margin-top: 130px;
 }
+
+.container-main{
+    width: 94%;
+    display: grid;
+    grid-template-columns: 70% 29%;
+    margin: 20px auto 10px auto;
+    gap: 12px;
+}
